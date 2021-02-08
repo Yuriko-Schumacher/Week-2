@@ -36,6 +36,7 @@ Promise.all([
 
 	// defining a geoPath function
 	let path = d3.geoPath(projection);
+	console.log(path); // path... path generator
 
 	// adding county paths
 	mapG.selectAll("path")
